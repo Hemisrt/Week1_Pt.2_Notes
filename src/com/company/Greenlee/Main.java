@@ -37,12 +37,12 @@ public class Main {
         for (int i = 0; i < randomNums.length; i++) {
             randomNums[i] = numbers.nextInt(20);
             System.out.println(randomNums[i]);
-        }
-        System.out.println("Select a random number from the list: ");
-        int userInput = input.nextInt();
+            System.out.println("Select a random number from the list: ");
+            int userInput = input.nextInt();
 
-        if (userInput == randomNums[i]) {
-            System.out.println("This number is located in indexes: " + randomNums[i]);
+            if (userInput == randomNums[i]) {
+                System.out.println("This number is located in indexes: " + randomNums[i]);
+            }
         }
     }
 }
